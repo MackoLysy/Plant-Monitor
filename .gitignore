@@ -5,3 +5,6 @@ plantNode/.vscode/launch.json
 plantNode/.vscode/ipch
 plantServer/build
 plantServer/build-arm
+plantNordicNode/build
+third_party/zephyr
+third_party/zephyr/.west/config
