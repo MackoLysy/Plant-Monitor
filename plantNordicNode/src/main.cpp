@@ -5,10 +5,11 @@
 #include <TaskScheduler.h>
 #include <bleHandler.h>
 #include <plantHandler.h>
+#include "plant_message.pb.h"
 
 Scheduler ts;
-BleHandler ble;
-PlantHandler plantHandler;
+PlantMonitor::BleHandler ble;
+PlantMonitor::PlantHandler plantHandler;
 void readCallback();
 Task task(1000 * TASK_MILLISECOND, TASK_FOREVER, &readCallback, &ts, true);
 
