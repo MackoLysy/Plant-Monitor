@@ -1,5 +1,7 @@
-#include "plant.h"
 #include <Arduino.h>
+#include "plant.h"
+
+using namespace PlantMonitor;
 
 Plant::Plant(/* args */)
 {

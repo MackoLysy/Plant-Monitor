@@ -1,6 +1,8 @@
+#include <Arduino.h>
+
 #include "bleHandler.h"
 #include "config.h"
-#include <Arduino.h>
+using namespace PlantMonitor;
 BleHandler *BleHandler::mInstance = NULL;
 BleHandler::BleHandler(/* args */)
 {

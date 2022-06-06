@@ -1,6 +1,8 @@
+#include <Arduino.h>
 #include "plantHandler.h"
 #include "config.h"
-#include <Arduino.h>
+using namespace PlantMonitor;
+
 PlantHandler::PlantHandler(/* args */) : plantNumber(0)
 {
 }
