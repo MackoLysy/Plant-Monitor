@@ -9,3 +9,8 @@ plantNordicNode/build
 third_party/zephyr
 third_party/zephyr/.west/config
 third_party/nanopb/generator/__pycache__
+
+
+# Added by cargo
+
+/target

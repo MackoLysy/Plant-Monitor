@@ -1,0 +1,1 @@
+workspace = { members = ["libs/utils", "services/ble-reader"] }
