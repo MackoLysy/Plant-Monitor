@@ -90,6 +90,8 @@ name = "ble-reader"
 version = "0.1.0"
 dependencies = [
  "btleplug",
+ "chrono",
+ "log",
  "tokio",
  "utils",
 ]
@@ -979,6 +981,7 @@ name = "utils"
 version = "0.1.0"
 dependencies = [
  "chrono",
+ "log",
  "pretty_env_logger",
 ]
 
