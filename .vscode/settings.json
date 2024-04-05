@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./services/ble-reader/Cargo.toml",
+        "./services/ble-reader/Cargo.toml",
+        "./services/ble-reader/Cargo.toml"
+    ]
+}
