@@ -29,11 +29,9 @@ impl Ble_Handler {
         let info = adapter.adapter_info().await?;
         info!("Scanning adapter...: {}", info);
         loop {
-            adapter
-                .start_scan(ScanFilter::default())
-                .await
-                .expect("Cant scan for devices!");
-            time::sleep(Duration::from_secs(10)).await;
+            adapter.start_scan(ScanFilter::default()).await?;
+            time::sleep(Duration::from_secs(5)).await;
+            info!("Scanning end");
             let peripherals = adapter.peripherals().await?;
             for peripheral in peripherals.into_iter() {
                 let properties = peripheral.properties().await?;
@@ -45,6 +43,23 @@ impl Ble_Handler {
                         properties.as_ref().unwrap().local_name,
                         properties.as_ref().unwrap().address
                     );
+
+                    peripheral.connect().await?;
+                    let is_connected = peripheral.is_connected().await?;
+                    if is_connected {
+                        info!(
+                            "getting characteristics: {:?}",
+                            properties.as_ref().unwrap().local_name
+                        );
+                        peripheral.discover_services().await?;
+                        let charateristics = peripheral.characteristics();
+                        for charateristic in charateristics.iter() {
+                            peripheral.notifications().await?;
+                        }
+                        let services = peripheral.services();
+                        info!("characteristics {:?}", charateristics);
+                        info!("services {:?}", services);
+                    }
                 }
             }
             adapter.stop_scan().await?;
