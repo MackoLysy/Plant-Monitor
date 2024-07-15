@@ -1,6 +1,4 @@
-use chrono::Local;
 use log::info;
-use std::io::Write;
 pub fn enable_logger() {
     pretty_env_logger::init_timed();
     // pretty_env_logger::formatted_builder()
