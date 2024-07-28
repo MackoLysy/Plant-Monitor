@@ -1,0 +1,171 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+       Fresh unicode-ident v1.0.12
+       Fresh cfg-if v1.0.0
+       Fresh autocfg v1.2.0
+       Fresh version_check v0.9.4
+       Fresh proc-macro2 v1.0.79
+       Fresh memchr v2.7.2
+       Fresh once_cell v1.19.0
+       Fresh quote v1.0.35
+       Fresh libc v0.2.153
+       Fresh pin-project-lite v0.2.14
+       Fresh futures-core v0.3.30
+       Fresh bytes v1.6.0
+       Fresh syn v2.0.57
+       Fresh getrandom v0.2.14
+       Fresh zerocopy v0.7.35
+       Fresh serde_derive v1.0.197
+       Fresh log v0.4.21
+       Fresh futures-sink v0.3.30
+       Fresh ahash v0.8.11
+       Fresh serde v1.0.197
+       Fresh smallvec v1.13.2
+       Fresh allocator-api2 v0.2.18
+       Fresh scopeguard v1.2.0
+       Fresh either v1.10.0
+       Fresh hashbrown v0.14.3
+       Fresh lock_api v0.4.11
+       Fresh parking_lot_core v0.9.9
+       Fresh slab v0.4.9
+       Fresh futures-channel v0.3.30
+       Fresh futures-macro v0.3.30
+       Fresh futures-task v0.3.30
+       Fresh futures-io v0.3.30
+       Fresh pin-utils v0.1.0
+       Fresh parking_lot v0.12.1
+       Fresh typenum v1.17.0
+       Fresh bitflags v2.5.0
+       Fresh tokio-macros v2.2.0
+       Fresh futures-util v0.3.30
+       Fresh generic-array v0.14.7
+       Fresh num_cpus v1.16.0
+       Fresh signal-hook-registry v1.4.1
+       Fresh socket2 v0.5.6
+       Fresh mio v0.8.11
+       Fresh tokio v1.37.0
+       Fresh equivalent v1.0.1
+       Fresh block-buffer v0.10.4
+       Fresh crypto-common v0.1.6
+       Fresh indexmap v2.2.6
+       Fresh thiserror-impl v1.0.58
+       Fresh aho-corasick v1.1.3
+       Fresh tinyvec_macros v0.1.1
+       Fresh subtle v2.6.1
+       Fresh regex-syntax v0.8.3
+       Fresh num-traits v0.2.18
+       Fresh thiserror v1.0.58
+       Fresh digest v0.10.7
+       Fresh tinyvec v1.8.0
+       Fresh regex-automata v0.4.6
+       Fresh itertools v0.10.5
+       Fresh linux-raw-sys v0.4.14
+       Fresh tokio-util v0.7.10
+       Fresh unicode-normalization v0.1.23
+       Fresh rustix v0.38.34
+       Fresh regex v1.10.4
+       Fresh pkg-config v0.3.30
+       Fresh unicode-bidi v0.3.15
+       Fresh unicode-segmentation v1.11.0
+       Fresh fastrand v2.1.0
+       Fresh heck v0.4.1
+       Fresh tempfile v3.10.1
+       Fresh tokio-stream v0.1.15
+       Fresh percent-encoding v2.3.1
+       Fresh minimal-lexical v0.2.1
+       Fresh nom v7.1.3
+       Fresh form_urlencoded v1.2.1
+       Fresh anyhow v1.0.86
+       Fresh idna v0.5.0
+       Fresh crossbeam-utils v0.8.20
+       Fresh rand_core v0.6.4
+       Fresh tracing-attributes v0.1.27
+       Fresh tracing-core v0.1.32
+       Fresh ppv-lite86 v0.2.17
+       Fresh crc-catalog v2.4.0
+       Fresh itoa v1.0.11
+       Fresh ryu v1.0.18
+       Fresh unicode_categories v0.1.1
+       Fresh cpufeatures v0.2.12
+       Fresh crc v3.2.1
+       Fresh sha2 v0.10.8
+       Fresh rand_chacha v0.3.1
+       Fresh sqlformat v0.2.4
+       Fresh serde_json v1.0.120
+       Fresh crossbeam-queue v0.3.11
+       Fresh tracing v0.1.40
+       Fresh url v2.5.2
+       Fresh paste v1.0.15
+       Fresh libdbus-sys v0.2.5
+       Fresh prost-derive v0.13.1
+       Fresh hmac v0.12.1
+       Fresh atoi v2.0.0
+       Fresh futures-intrusive v0.5.0
+       Fresh hashlink v0.8.4
+       Fresh unicode-properties v0.1.1
+       Fresh byteorder v1.5.0
+       Fresh hex v0.4.3
+       Fresh event-listener v2.5.3
+       Fresh stringprep v0.1.5
+       Fresh dbus v0.9.7
+       Fresh sqlx-core v0.7.4
+       Fresh prost v0.13.1
+       Fresh hkdf v0.12.4
+       Fresh rand v0.8.5
+       Fresh md-5 v0.10.6
+       Fresh is-terminal v0.4.12
+       Fresh base64 v0.21.7
+       Fresh termcolor v1.4.1
+       Fresh whoami v1.5.1
+       Fresh home v0.5.9
+       Fresh dotenvy v0.15.7
+       Fresh fixedbitset v0.4.2
+       Fresh humantime v2.1.0
+       Fresh syn v1.0.109
+       Fresh prost-types v0.13.1
+       Fresh sqlx-postgres v0.7.4
+       Fresh env_logger v0.10.2
+       Fresh petgraph v0.6.5
+       Fresh prettyplease v0.2.17
+       Fresh futures-executor v0.3.30
+       Fresh iana-time-zone v0.1.60
+       Fresh multimap v0.8.3
+       Fresh xml-rs v0.8.20
+       Fresh sqlx-macros-core v0.7.4
+       Fresh futures v0.3.30
+       Fresh chrono v0.4.37
+       Fresh pretty_env_logger v0.5.0
+       Fresh prost-build v0.13.1
+       Fresh serde-xml-rs v0.6.0
+       Fresh async-trait v0.1.79
+       Fresh bluez-generated v0.3.0
+       Fresh dbus-tokio v0.7.6
+       Fresh uuid v1.8.0
+       Fresh bluez-async v0.7.2
+       Dirty protobufs v0.1.0 (/home/macko/macko_projects/Plant-Monitor/libs/proto): the file `libs/proto/build.rs` has changed (1721767904.354139007s, 1m 6s after last build at 1721767838.011660093s)
+   Compiling protobufs v0.1.0 (/home/macko/macko_projects/Plant-Monitor/libs/proto)
+       Fresh utils v0.1.0 (/home/macko/macko_projects/Plant-Monitor/libs/utils)
+       Fresh sqlx-macros v0.7.4
+       Fresh dashmap v5.5.3
+       Fresh static_assertions v1.1.0
+       Fresh sqlx v0.7.4
+       Fresh btleplug v0.11.5
+       Fresh db-handler v0.1.0 (/home/macko/macko_projects/Plant-Monitor/libs/db_handler)
+       Fresh ble-reader v0.1.0 (/home/macko/macko_projects/Plant-Monitor/services/ble-reader)
+warning: field `addr` is never read
+  --> services/ble-reader/src/ble_handler.rs:16:5
+   |
+15 | struct Device {
+   |        ------ field in this struct
+16 |     addr: String,
+   |     ^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+     Running `/home/macko/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 libs/proto/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C metadata=4ae7d3e1a0f94a71 -C extra-filename=-4ae7d3e1a0f94a71 --out-dir /home/macko/macko_projects/Plant-Monitor/target/debug/build/protobufs-4ae7d3e1a0f94a71 -C incremental=/home/macko/macko_projects/Plant-Monitor/target/debug/incremental -L dependency=/home/macko/macko_projects/Plant-Monitor/target/debug/deps --extern prost_build=/home/macko/macko_projects/Plant-Monitor/target/debug/deps/libprost_build-887c5220d3038aaf.rlib`
+warning: `ble-reader` (bin "ble-reader") generated 1 warning
+     Running `/home/macko/macko_projects/Plant-Monitor/target/debug/build/protobufs-4ae7d3e1a0f94a71/build-script-build`
+     Running `/home/macko/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name protobufs --edition=2021 libs/proto/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -C metadata=c30740c5d22e1ff0 -C extra-filename=-c30740c5d22e1ff0 --out-dir /home/macko/macko_projects/Plant-Monitor/target/debug/deps -C incremental=/home/macko/macko_projects/Plant-Monitor/target/debug/incremental -L dependency=/home/macko/macko_projects/Plant-Monitor/target/debug/deps --extern prost=/home/macko/macko_projects/Plant-Monitor/target/debug/deps/libprost-2e000b7ede015961.rmeta --extern prost_types=/home/macko/macko_projects/Plant-Monitor/target/debug/deps/libprost_types-2310e676c22e03e7.rmeta`
+    Finished dev [unoptimized + debuginfo] target(s) in 0.26s

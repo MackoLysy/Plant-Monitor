@@ -1,1 +1,6 @@
-workspace = { members = ["libs/utils", "services/ble-reader"] }
+workspace = { members = [
+    "libs/utils",
+    "services/ble-reader",
+    "libs/db_handler",
+    "libs/proto",
+] }
