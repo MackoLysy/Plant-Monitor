@@ -1,0 +1,10 @@
+[package]
+name = "db-handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlx = { version = "0.7", features = ["runtime-tokio", "postgres"] }
+tokio = { version = "1.37.0", features = ["full"] }
+utils = { path = "../../libs/utils" }
+log = "0.4.0"

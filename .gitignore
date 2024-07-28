@@ -12,5 +12,5 @@ third_party/nanopb/generator/__pycache__
 
 
 # Added by cargo
-
+deploys/postgres/postgres_data
 /target

@@ -1,11 +1,19 @@
-syntax = "proto2";
+syntax = "proto3";
 
-message Plant{
-    required int32 soil = 1;
-    required int32 light = 2;
+enum MessageType
+{
+    MESSAGE_TYPE_UNSPECIFIED = 0;
+    MESSAGE_TYPE_PLANT_UPDATE = 1;
+}
+
+message Plant
+{
+   int32 soil = 1;
+   int32 light = 2;
 }
 
 message Plants
 {
+    MessageType request_type = 1;
     repeated Plant plants = 10;
 }
